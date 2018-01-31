@@ -64,7 +64,18 @@ a:active  {
     font-weight: bold;
     color: rgb(168, 168, 168);
 } 
-
-
-
+/*Table Settings*/
+thead {
+    background-color: gray;
+    color: white;
+}
+tbody {
+    text-decoration-style: bold;
+}
+th, td {
+    padding: 15px;
+}
+table {
+    border-spacing: 5px;
+}
 
