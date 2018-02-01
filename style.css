@@ -35,7 +35,7 @@ nav ul {
 nav li {
     height: 60px;
     padding-top: 15px;
-    
+
 }
 
 nav {
@@ -63,7 +63,30 @@ a:active  {
     text-decoration: none;
     font-weight: bold;
     color: rgb(168, 168, 168);
-} 
+}
+img {
+    vertical-align: middle;
+}
+#contact {
+    width: 1150px;
+    margin: 50px auto;
+    display: flex;
+}
+
+#map {
+    text-align: left;
+}
+
+#contact ul {
+    list-style-type: none;
+    margin: auto;
+
+}
+
+#contact img:hover {
+    cursor: pointer;
+    opacity: .3;
+}
 /*Table Settings*/
 thead {
     background-color: gray;
