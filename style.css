@@ -23,6 +23,15 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+footer {
+    float: center;
+    font-style: bold;
+}
+
+/*#home-p {
+
+}*/
+
 body {
     font-family: 'Oxygen', sans-serif;
     text-align: center;
@@ -89,20 +98,22 @@ img {
     opacity: .3;
 }
 /*Table Settings*/
-thead {
+/*#table-head {
     background-color: gray;
     color: white;
-}
-tbody {
+}*/
+
+#table-body {
     text-decoration-style: bold;
 }
-th, td {
+
+#table-head, #table-body {
     padding: 15px;
 }
+
 table {
     border-spacing: 5px;
 }
-
 
 /* About settigns */
 #canvas {
@@ -117,8 +128,3 @@ table {
 #hours {
     display: none;
 }
-
-
-
-
-

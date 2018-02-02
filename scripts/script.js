@@ -19,6 +19,8 @@ $(document).ready(function() {
 
     var imageArray = [/*Set images here*/];
 
+ 
+    var imageArray = ["images\cylinder.jpg", "images\cylinder2.jpg", "images\cylinder3.jpg"];
     var imageIndex = 0;
 
     function changeImage() {
@@ -120,9 +122,10 @@ $(document).ready(function() {
     var companyCtx = companyCanvs.getContext("2d");
     
     companyCtx.font = "20px Oxygen";
-    companyCtx.fillText("Our company", 374, 50);
-    companyCtx.fillText("Company x", 590, 50);
-    companyCtx.fillText("Company y", 790, 50);
+    companyCtx.fillText("Silver Eagle", 400, 40);
+    companyCtx.fillText("Technologies", 394, 60);
+    companyCtx.fillText("Energizer", 610, 40);
+    companyCtx.fillText("Duracell", 815, 40);
     
     
 
