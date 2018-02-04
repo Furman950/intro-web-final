@@ -14,11 +14,9 @@ $(document).ready(function() {
             }
         });
     });
+
     //Slideshow code
-    var image = document.getElementById("image");
-
-    var imageArray = [/*Set images here*/];
-
+    var image = document.getElementById("slide");
  
     var imageArray = ["images\cylinder.jpg", "images\cylinder2.jpg", "images\cylinder3.jpg"];
     var imageIndex = 0;
