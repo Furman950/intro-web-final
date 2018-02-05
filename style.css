@@ -33,6 +33,9 @@ body {
     text-align: center;
 }
 
+li img {
+    vertical-align: middle;
+}
 #home-p {
     width: 1080px;
     margin:  20px auto;
