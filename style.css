@@ -37,6 +37,12 @@ body {
     text-align: center;
 }
 
+#home-p {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -99,8 +105,8 @@ img {
 }
 /*Table Settings*/
 /*#table-head {
-    background-color: gray;
-    color: white;
+background-color: gray;
+color: white;
 }*/
 
 #table-body {
@@ -113,11 +119,31 @@ img {
 
 table {
     border-spacing: 5px;
+    border-collapse: collapse;
+    margin: 0 auto;
 }
 
+table, th, td {
+    border: 1px solid black;
+}
+
+#specs-table {
+    margin: 10px 0px;
+}
+
+#specs-title {
+    font-size: 50px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
 /* About settigns */
 #canvas {
-    margin-top: 50px;
+    
+}
+
+#battery-life{
+    font-size: 45px;
+    padding-bottom: 5px;
 }
 #container {
     width: 1000px;

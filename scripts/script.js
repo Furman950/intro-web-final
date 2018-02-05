@@ -17,8 +17,8 @@ $(document).ready(function() {
 
     //Slideshow code
     var image = document.getElementById("slide");
- 
-    var imageArray = ["images\cylinder.jpg", "images\cylinder2.jpg", "images\cylinder3.jpg"];
+
+    var imageArray = ["images/cylinder.jpg", "images/cylinder2.jpg", "images/cylinder3.jpg"];
     var imageIndex = 0;
 
     function changeImage() {
@@ -28,9 +28,7 @@ $(document).ready(function() {
             imageIndex = 0;
         }
     }
-    window.onload = function() {
-        setInterval(changeImage, 2000);
-    }
+    setInterval(changeImage, 2000);
 
     //Bar graph
     var canvas = document.getElementById("myCanvas");
@@ -95,7 +93,7 @@ $(document).ready(function() {
 
     //Adding hours
     $("#hours").fadeIn(1000);
-    
+
     var hoursCanvas = document.getElementById("hours");
     var hoursCtx = hoursCanvas.getContext("2d");
     var height = 70;
@@ -107,25 +105,25 @@ $(document).ready(function() {
     while (true) {
         if (height == 570)
             break;
-        
+
         hoursCtx.fillText(hours + " hours-", 150, height);
         height += 100;
         hours -= 50;
     }
-    
+
     //Adding company names
-    
+
     $("#company").fadeIn(1250);
     var companyCanvs = document.getElementById("company");
     var companyCtx = companyCanvs.getContext("2d");
-    
+
     companyCtx.font = "20px Oxygen";
     companyCtx.fillText("Silver Eagle", 400, 40);
     companyCtx.fillText("Technologies", 394, 60);
     companyCtx.fillText("Energizer", 610, 40);
     companyCtx.fillText("Duracell", 815, 40);
-    
-    
+
+
 
 
 
