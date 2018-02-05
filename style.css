@@ -28,10 +28,6 @@ footer {
     font-style: bold;
 }
 
-/*#home-p {
-
-}*/
-
 body {
     font-family: 'Oxygen', sans-serif;
     text-align: center;
@@ -39,7 +35,14 @@ body {
 
 #home-p {
     width: 1080px;
-    margin: 0 auto;
+    margin:  20px auto;
+    font-weight: bold;
+}
+
+#logo{
+    height: 80px;
+    width: 80px;
+    margin-left: 10px;
 }
 
 
@@ -80,8 +83,13 @@ a:active  {
     font-weight: bold;
     color: rgb(168, 168, 168);
 }
-img {
-    vertical-align: middle;
+
+#title {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 #contact {
     width: 1150px;
@@ -103,28 +111,36 @@ img {
     cursor: pointer;
     opacity: .3;
 }
+
+
 /*Table Settings*/
-/*#table-head {
-background-color: gray;
-color: white;
-}*/
-
-#table-body {
-    text-decoration-style: bold;
-}
-
-#table-head, #table-body {
-    padding: 15px;
-}
-
 table {
     border-spacing: 5px;
-    border-collapse: collapse;
     margin: 0 auto;
 }
 
-table, th, td {
+th, td {
     border: 1px solid black;
+}
+
+th {
+    background-color: #333334;
+    height: 50px;
+    width: 150px;
+    color: white;
+    vertical-align: middle;
+}
+
+td {
+    background-color: #F2F2F2;
+    vertical-align: middle;
+    width: 500px;
+}
+
+tr:hover{
+    font-size: 1.2em;
+    height: 55px;
+    widht: 155px;
 }
 
 #specs-table {
@@ -138,7 +154,7 @@ table, th, td {
 }
 /* About settigns */
 #canvas {
-    
+
 }
 
 #battery-life{
